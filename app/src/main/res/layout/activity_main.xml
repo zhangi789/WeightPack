@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <com.zhy.widget.CircleIndicatorView
+        android:id="@+id/mm"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:indicator_space="40"
+        app:indicator_normal_radius="8"
+        app:indicator_selected_radius="11"
+        app:indicator_normal_color="#c1bfbf"
+        app:indicator_selected_color="#7CD515">
+    </com.zhy.widget.CircleIndicatorView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
