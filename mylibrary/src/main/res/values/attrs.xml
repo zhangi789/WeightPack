@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--圆形指示器-->
+    <declare-styleable name="ZCircleIndicator">
+
+        <attr name="indicator_normal_color" format="reference|color"/>
+        <attr name="indicator_selected_color" format="reference|color"/>
+        <attr name="indicator_normal_radius" format="integer"/>
+        <attr name="indicator_selected_radius" format="integer"/>
+        <attr name="indicator_space" format="integer"/>
+    </declare-styleable>
+
+
+
+
+
+
+</resources>
