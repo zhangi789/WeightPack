@@ -13,7 +13,6 @@ import android.view.View;
 import com.zhy.R;
 
 /**
- *
  *    圆形指示器   支持设置代码设置总数和设置当前位置
  */
 public class CircleIndicatorView extends View {
